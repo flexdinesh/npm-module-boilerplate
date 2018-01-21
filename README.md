@@ -1,4 +1,4 @@
-# Why? [![Build Status](https://travis-ci.org/flexdinesh/npm-module-boilerplate.svg?branch=master)](https://travis-ci.org/flexdinesh/npm-module-boilerplate)
+# NPM Module boilerplate [![Build Status](https://travis-ci.org/flexdinesh/npm-module-boilerplate.svg?branch=master)](https://travis-ci.org/flexdinesh/npm-module-boilerplate)
 [![dependencies Status](https://david-dm.org/flexdinesh/npm-module-boilerplate/status.svg)](https://david-dm.org/flexdinesh/npm-module-boilerplate)
 [![devDependencies Status](https://david-dm.org/flexdinesh/npm-module-boilerplate/dev-status.svg)](https://david-dm.org/flexdinesh/npm-module-boilerplate?type=dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
@@ -7,7 +7,14 @@ Boilerplate for npm/node module. Write with ES6 - have compatibility with all no
 
 This boilerplate is for people who want write code using all ES6 features ( and stage-2 ) but also want/need backwards compatibility with old node versions.
 
-Includes code examples for default and named exports/imports.
+
+## Why? [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
+
+You have readymade boilerplate code to kick start your module development without having to worry about setting up CICD or publishing to npm registry.
+
+Includes code examples for default and named exports/imports. You also have the badges here in the Readme.md for reference.
+
+Happy hacking =)
 
 # Features
 * Build with [Babel](https://babeljs.io). (ES6 -> ES5)
