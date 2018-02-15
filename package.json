@@ -6,10 +6,10 @@
   "scripts": {
     "clean": "rimraf lib",
     "test": "npm run cover",
-    "test:only": "cross-env BABEL_ENV=commonjs mocha --require babel-core/register --recursive",
+    "test:only": "cross-env BABEL_ENV=commonjs mocha --require babel-core/register --require babel-polyfill --recursive",
     "test:watch": "npm test -- --watch",
     "test:examples": "node examples/",
-    "cover": "cross-env BABEL_ENV=commonjs istanbul cover _mocha -- --require babel-core/register --recursive",
+    "cover": "cross-env BABEL_ENV=commonjs istanbul cover _mocha -- --require babel-core/register --require babel-polyfill --recursive",
     "lint": "eslint src test",
     "build": "cross-env BABEL_ENV=commonjs babel src --out-dir lib",
     "prepublish": "npm run clean && npm run lint && npm run test && npm run build"
@@ -40,8 +40,8 @@
     "babel-cli": "^6.26.0",
     "babel-eslint": "^8.2.1",
     "babel-plugin-add-module-exports": "^0.2.1",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-stage-2": "^6.24.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
     "chai": "^4.1.2",
     "cross-env": "^5.1.3",
     "eslint": "^4.16.0",
