@@ -1,6 +1,6 @@
 {
   "name": "npm-module-boilerplate",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Boilerplate for npm modules with ES6 features and syntax",
   "main": "./lib/index.js",
   "scripts": {
@@ -30,7 +30,7 @@
     "node",
     "javascript"
   ],
-  "author": "Dineshkumar Pandiyan <flexdinesh@gmail.com>",
+  "author": "Dinesh Pandiyan <flexdinesh@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/flexdinesh/npm-module-boilerplate/issues"
