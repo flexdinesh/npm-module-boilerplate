@@ -17,12 +17,6 @@ coverage
 # nyc test coverage
 .nyc_output
 
-# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
-
-# node-waf configuration
-.lock-wscript
-
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
@@ -44,3 +38,7 @@ lib
 
 # npm package lock
 package-lock.json
+yarn.lock
+
+others
+.DS_Store
