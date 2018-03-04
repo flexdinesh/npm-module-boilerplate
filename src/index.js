@@ -7,6 +7,4 @@ const awesomeFunction = () => 'I am just an Awesome Function';
 
 export default defaultAwesomeFunction;
 
-export {
-  awesomeFunction
-};
+export { awesomeFunction };
