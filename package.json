@@ -36,7 +36,6 @@
   },
   "homepage": "https://github.com/flexdinesh/npm-module-boilerplate#readme",
   "devDependencies": {
-    "babel": "^6.23.0",
     "babel-cli": "^6.26.0",
     "babel-eslint": "^8.2.1",
     "babel-plugin-add-module-exports": "^0.2.1",
