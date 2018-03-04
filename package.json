@@ -5,7 +5,7 @@
   "main": "./lib/index.js",
   "scripts": {
     "clean": "rimraf lib",
-    "test": "npm run cover",
+    "test": "npm run lint && npm run cover",
     "test:prod": "cross-env BABEL_ENV=production npm run test",
     "test:only": "mocha --require babel-core/register --require babel-polyfill --recursive",
     "test:watch": "npm test -- --watch",
