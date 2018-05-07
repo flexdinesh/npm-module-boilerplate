@@ -8,9 +8,6 @@ coverage
 # Dependency directories
 node_modules
 
-# Lib
-lib
-
 # npm package lock
 package-lock.json
 yarn.lock
