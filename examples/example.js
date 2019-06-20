@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
-const defaultAwesomeFunction = require('../lib').default;
-const { awesomeFunction } = require('../lib');
+const defaultAwesomeFunction = require('../src').default;
+const { awesomeFunction } = require('../src');
 
 const defaultVal = defaultAwesomeFunction('Dinesh');
 const val = awesomeFunction();
